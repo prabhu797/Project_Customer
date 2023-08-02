@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Customer</title>
+    <link rel="stylesheet" href="/update_customer/update.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Update Customer</h2>
+        <form id="update-form">
+          <input type="hidden" id="uuid" name="uuid" value="customer_uuid_here">
+          <div class="form-group">
+            <label for="first_name">First Name *</label>
+            <input type="text" id="first_name" name="first_name" required>
+          </div>
+          <div class="form-group">
+            <label for="last_name">Last Name *</label>
+            <input type="text" id="last_name" name="last_name" required>
+          </div>
+          <div class="form-group">
+            <label for="street">Street</label>
+            <input type="text" id="street" name="street">
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address">
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city">
+          </div>
+          <div class="form-group">
+            <label for="state">State</label>
+            <input type="text" id="state" name="state">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone">
+          </div>
+          <input type="button" id="update" value="Update">
+        </form>
+      </div>
+
+    <script src="/update_customer/update.js"></script>
+</body>
+</html>

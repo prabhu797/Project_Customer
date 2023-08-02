@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Details</title>
+    <link rel="stylesheet" href="/customer_list/customer.css">
+</head>
+<body>
+    
+    <div class="maincontainer">
+        <h2>Customer List</h2>
+        <input type="button" id="create-button" value="Create Customer">
+        <table>
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Street</th>
+              <th>Address</th>
+              <th>City</th>
+              <th>State</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th class="action-column">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="customer-list">
+            <!-- Customer data will be dynamically added here -->
+          </tbody>
+        </table>
+      </div>
+
+
+      <script src="/customer_list/customer.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+Hello,
+Thank you so much for the wonderful opportunity. I really enjoyed working on the project. Although I am well versed in Java, spring boot, hibernate and my SQL, my Javascript also proves to be strong and I have successfully completed the application. 
+
+This application will allow user to login, create customer, edit customer details and delete customer details. 
+
+
+<-------------------- How to use --------------------> 
+1. If you are trying to access the page aur api then please make the below changes.
+	Please change the "const cors = "http://cors-anywhere.herokuapp.com/";" to "const cors = "";".
+   Else if you are using localhost then don't make any changes.
+2. Please launch index.html from login folder, subsequently you will be able to reach or access all other pages.
+
+
+To conclude, I believe I have completed the assignment up to your expectations and I look forward to joining the company and working more on such projects. 
+
+Hope to hear from you at the earliest. Kindly do the needful.
+
+Thank you for your time and consideration.
+
+Kind regards,
+Prabhudev Desai.
+email: prabhudesai007@gmail.com
